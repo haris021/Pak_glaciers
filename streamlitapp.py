@@ -8,6 +8,7 @@ import geopandas as gpd
 import geojson
 px.set_mapbox_access_token("pk.eyJ1IjoiYW1hbnp5MTIzNCIsImEiOiJjbG9land0NjcwazR6MmtvMjgycTJ2bHp2In0.wEKHMlZHua7rHUV0Av03UQ")
 st.set_page_config(layout="wide") 
+st.image("wcs.png", width=100)
 # Add title to your Streamlit app
 st.title("Glacier Analysis App")
 
