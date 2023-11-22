@@ -8,7 +8,7 @@ import geopandas as gpd
 import geojson
 px.set_mapbox_access_token("pk.eyJ1IjoiYW1hbnp5MTIzNCIsImEiOiJjbG9land0NjcwazR6MmtvMjgycTJ2bHp2In0.wEKHMlZHua7rHUV0Av03UQ")
 st.set_page_config(layout="wide") 
-
+st.title("Pakistan Glaciers")
 
 @st.cache_resource
 def get_glacier_df():
