@@ -62,7 +62,7 @@ if len(selected_points)>0:
     st.write(tuple(selected_glacier[["CenLat", "CenLon"]].values))
     st.dataframe(selected_glacier[["Glacier Name", "RGI Glacier ID", "Begin Date", "End Date", "Total Area, km2", "Minimum Elevevation", "Median Elevation", "Maximum Elevation"]])
 
- st.text("")
+st.text("")
     # Provide references
     st.subheader("Data References")
     st.markdown(
