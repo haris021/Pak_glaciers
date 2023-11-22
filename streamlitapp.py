@@ -61,3 +61,13 @@ if len(selected_points)>0:
     selected_glacier = glaciers_df.iloc[[selected_points[0]["pointIndex"]]]
     st.write(tuple(selected_glacier[["CenLat", "CenLon"]].values))
     st.dataframe(selected_glacier[["Glacier Name", "RGI Glacier ID", "Begin Date", "End Date", "Total Area, km2", "Minimum Elevevation", "Median Elevation", "Maximum Elevation"]])
+
+ st.text("")
+    # Provide references
+    st.subheader("Data References")
+    st.markdown(
+        """
+https://nsidc.org/data/nsidc-0770/versions/6
+    """
+    )
+    st.text("")
