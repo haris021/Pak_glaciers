@@ -64,8 +64,8 @@ if len(selected_points)>0:
 
 st.text("")
     # Provide references
-    st.subheader("Data References")
-    st.markdown(
+st.subheader("Data References")
+st.markdown(
         """
 https://nsidc.org/data/nsidc-0770/versions/6
     """
